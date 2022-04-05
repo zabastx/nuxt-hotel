@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/room/982", {data:[{num:982,isLux:false,price:5800,rating:3,reviews:56}],fetch:{},mutations:void 0});
