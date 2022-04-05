@@ -1,0 +1,80 @@
+@import './globalVars.scss';
+
+:root {
+	--content-width: 1185px;
+}
+
+p {
+	color: $dark75;
+}
+
+h1,h2,h3 {
+	color: $dark100;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 19px;
+}
+
+h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.dark100 {
+	color: $dark100;
+}
+
+.dark75 {
+	color: $dark75;
+}
+
+.dark50 {
+	color: $dark50;
+}
+
+.dark25 {
+	color: $dark25;
+}
+
+.dark5 {
+	color: $dark5;
+}
+
+.text-purple {
+	color: $purple;
+}
+
+.text-green {
+	color: $green;
+}
+
+.theme--light.v-btn::before {
+	background-color: $purple;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .3s ease;
+}
+.fade-enter, .fade-leave-to {
+  transform: translateX(30px);
+  opacity: 0;
+}
+
+.slide-down-enter-active, .slide-down-leave-active {
+  transition: all .3s ease;
+}
+.slide-down-enter, .slide-down-leave-to {
+  transform: translateY(-30px);
+  opacity: 0;
+}
+
+@media (max-width: 1264px) {
+	:root {
+		--content-width: 900px;
+	}
+}

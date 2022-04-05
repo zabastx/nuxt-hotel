@@ -1,0 +1,26 @@
+$font-size-root: 14px;
+$date-picker-table-height: 210px;
+
+@import '~vuetify/src/styles/styles.sass';
+
+.v-application p, .v-input--selection-controls {
+	margin: 0;
+}
+
+.v-application .accent {
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+.v-picker--date .v-btn > .v-btn__content .v-icon {
+	color: #BC9CFF;
+}
+
+.v-label {
+	font-size: 14px;
+}
+
+@media (min-width: 1904px) {
+	.container {
+		max-width: 1185px;
+	}
+}
